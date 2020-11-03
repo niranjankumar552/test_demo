@@ -1,319 +1,316 @@
 *{
 	padding: 0;
 	margin: 0;
-	font-family: 'Open Sans', sans-serif;
-
-}
-
-.header .butoon{
-	background: #eb5757;
-	color: #fff;
-	width: 10%;
-	border-radius: 15px;
-
-}
-
-.header h5{
-	font-size: 18px;
-	padding-left: 5px;
-}
-
-.navbar{
-	background: #eb5757;
-}
-
-.icons a{
-	width:50px;
-	text-align: center;
-	border-radius: 8px;
-
-}
-
-.icons .fa{
-	font-size: 24px;
-}
-
-.banner img{
-	position: relative;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 1;
-  background-color: rgba(0,0,0,0.73);
-}
-
-.caption{
-	
-	width: 350px;
-	height: 300px;
-	
-	text-align: left;
-	margin-left: 15px;
+	font-family: 'PT Serif', serif;
 }
 
 
-.caption h5{
-	
-	font-size: 60px;
+body{
+	background-color: #f4f4f4;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+/*header bar clinic mobile no Start */
+
+.contact-clinic{
+	font-size: 17px;	
+}
+.contact-clinic:before{
+	content: "\f2a0";
+	font-family:FontAwesome;
+	padding-right: 10px;
+}
+
+.time-table{
+	font-size: 15px;	
+}
+.time-table:before{
+ content: "\f017";
+ font-family:FontAwesome;
+ padding-left: 35px;
+ padding-right: 10px;
+}
+
+/*header bar clinic mobile no  End*/
+
+/*Navigation menu start*/
+
+.Logo img{
+	width: 200px;
+    height: 70px;
+}
+
+ .custome-menu{
+	    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    text-transform: uppercase;
+    font-style: 20px;
+}
+
+.active > a.nav-link{
+	color: #f20453 !important;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #f20453 !important;
+	transition:0.6s;
+}
+
+/*Navigation menu End*/
+
+/*Specilitiest containent start*/
+
+.specilitied-text-main .heart-title{
+	font-size: 16px;
 	font-weight: bold;
-	letter-spacing: 3px;	
+	color: #706d6b;
+	 text-shadow: 1px 1px 1px #736c6e3d;
 }
 
-.caption p{
+.custom-margin{
+	margin-top: 6rem!important;
+}
 	
-	font-size: 17px;
-	padding-top: 5px;
+.all-headings
+{
+	color: #f20453;
+	text-shadow: 2px 2px 2px #736c6e73;
+	font-size:  35px;
+	text-transform: uppercase;
 }
 
-.btn-outline-secondary {
-	width: 130px;
-    color: #ffffff;
-    background-color: transparent;
-    
-    border-color: #ffffff;
+.custom-card-body .fa{
+	    font-size: 80px;
+	    color: #f20453;
+	    text-shadow: 2px 2px 2px #736c6e73; 
 }
 
-.info p{
-	font-size: 14px;
-	margin-bottom: 0px;
-}
-
-.info h1{
+.custom-card-body h5{
+	text-transform: uppercase;
 	font-weight: bold;
+	color: #3d3b3a;
+}
+.custom-card-body p{
+	text-align: justify;
+	font-size: 15px;
 }
 
-.card-blank{
-	width: 65%;
-	height: 270px;
-	background: #000;
-	
-}
+/*Specilitiest containent End*/
 
-.card-blank p{
-	font-size: 32px;
-	color: #fff;
-	padding-left: 20px;
-	padding-top: 10px;
-	text-align: left;
 
-}
-.card-blank h4{
-	font-size: 32px;
+/* About section Start*/
+
+.about-title h6{
+	font-size: 16px;
 	font-weight: bold;
-	color: #fff;
-	text-align: center;
-	margin-top: 5%;
-	
+	color: #706d6b;
+	 text-shadow: 1px 1px 1px #736c6e3d;
+	 text-transform: uppercase;
 }
 
-.card-blank i.fa {
-		color: #fff;
-		font-size: 9rem;
-		margin-top: 15%;		
-		margin-left: 60%;
-		overflow: hidden;
 
-}
-
-.custom-roow{
-	text-align: -webkit-center;
-}
-
-.para-text{
-	width: 65%;
-	height: 110px;
-	font-size: 14px;
-	text-align: left;
-
-}
-
-.img-effect{
+.custom-image img{
 	width: 100%;
-	height: 500px;
-	background-image: linear-gradient(rgba(24, 27, 36,0.55), rgba(24, 27, 36,0.55)), url('images/dell1.jpg');
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
 }
 
-.custom-img{
-	position: relative;
+
+.custom-about-paragraph h4{
+	color: #f20453;
+	text-shadow: 2px 2px 2px #736c6e73;
+	font-size: 30px;
+	  text-transform: capitalize;
+	  padding-top: 10px;
 }
-.custom-img h3{
-	position: absolute;
-	top: 5%;
-	right: 2%;
-	color: #ffff;
-	font-size: 54px;
-	padding-top: 25px;
-	text-align: right;	
+
+.custom-about-paragraph .text-paragraph{
+	color: #666462;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.custom-about-paragraph .text-subtitle-pera{
+	
+	font-size: 18px;
+	text-align: justify;
+}
+
+
+/* About section End*/
+
+
+/*Doctor Name Strat*/ 
+.text-title-heading{
+	color: #f20453;
+	text-shadow: 2px 2px 2px #736c6e73;
+	font-size: 25px;
+	padding: 0px 15px;
+}
+
+.sub-tiltle {
+	padding: 0px 15px;
+}
+
+/*Doctor Name End*/ 
+
+
+/*About cardio Start*/
+
+.title-cardio h4{
+	color: #f20453;
+	text-shadow: 2px 2px 2px #736c6e73;
+	font-size: 25px;
+	/*padding: 0px 15px;*/
+}
+
+.title-cardio p{
+	text-align: justify;
+	font-size: 15px;	
+}
+
+/*About cardio End*/
+
+/*Gallery section Start*/
+.custom-gallery .title-our{
+	font-size: 16px;
+	font-weight: bold;
+	color: #706d6b;
+	 text-shadow: 1px 1px 1px #736c6e3d;
+	 text-transform: uppercase;
+}
+
+.custom-gallery .title-gallery{
+	color: #f20453;
+	text-shadow: 2px 2px 2px #736c6e73;
+	font-size: 45px;
+	padding: 0px 15px;
+	text-transform: capitalize;
+}
+
+/*Gallery section Start*/
+
+/*footer us Start*/
+.custom-foter .hedind-footer{
+	color: white;
+	font-size: 23px;
 	font-weight: bold;
 }
 
-.custom-img p{
-	position: absolute;
-	right: 20px;
-	top: 250px;
-	color: #fff;
-	font-size: 18px;
-	text-align: right;
-	width: 380px;
-	padding-top: 5px;
+.custom-foter p{
+	color: #c9c5c5;
 }
 
-.botton{
-	position: absolute;
-	top: 380px;
-	right: 20px;
+.custom-foter a i{
+	padding: 5px 15px;
+	font-size: 32px;
+	color: #adabab;
 }
 
-.botton{
-	background: transparent;
-	border-color: #fff;
-	color: #fff;
-	width: 20%;
-}
-.botton:hover{
-	background: #ffffff29;
+.custom-foter a i:hover{
+	color: white;
+	cursor: pointer;
+	transition: 0.5s;
+
 }
 
-.btn:focus{
-	box-shadow: none;
+.foter-menu .link-style{
+	color: white;
 }
 
-
-
-/*@media screen and (max-width: 699px)
-{
-	.caption
-	{
-		top: 20%;
-	}
-}*/
-
-@media (max-width: 1230px)
-{
-	.caption{
-			right: 75%;
-	    	bottom: 20px;
-	    	top: 20%;
-	    	left: 0;
-	}
-}
-
-
-
-
-@media screen and (min-width: 700px)
-{
-	.caption
-	{
-		right: 72%;
-    	bottom: 20px;
-    	top: 17%;
-    	left: 0;
-	}
-}
-
-
-@media screen and (max-width: 768px)
-{
-	.header .butoon {
-    background: #eb5757;
-    color: #fff;
-    width: 24%;
-    border-radius: 15px;
-    padding-top: 2px;
-}
+.order-list-footer li a{
+	color: white;
 	
+}
 
-	.header h5 {
+.order-list-footer li a:hover{
+	color: #f20453;
+	transition: 0.4s;
+	text-decoration: none;
+}
+
+.info-contact h4{
+	color: white;
+}
+
+.info-contact .text-add {
+	color: #c9c5c5;
+}
+
+.info-contact .phn{
+	color: white;
+}
+.info-contact .mob-no{
+	color: #c9c5c5;
+}
+
+.info-contact .mob{
+	color: white;
+}
+.info-contact .phon-no{
+	color: #c9c5c5;
+}
+
+.info-contact .eml{
+	color: white;
+}
+.info-contact .email{
+	color: #c9c5c5;
+}
+
+/*footer us End*/
+
+/*DR profile CSS start*/
+.dr-name h3{
+	color: #3d3d3d;
+}
+
+.dr-name .veryfied-icone{
+	font-size: 15px;
+}
+.dr-name .veryfied-icone:before{
+	content: "\f00c";
+	font-family: FontAwesome;
+	font-size: 22px;
+	color: green;
+	padding-right: 10px;
+}
+
+
+
+.fc-button-group .fc-agendaDay-button{
+	display: none;
+}
+
+.botn-size .f-bton{
+	/*padding: 5px;
+	font-size: 13px;*/
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
     font-size: 14px;
-    padding-left: 9px;
-    padding-top: 10px;
+    font-weight: 400;
+    line-height: 1.428590;
+    text-align: center;
+    white-space: nowrap;
+    /* vertical-align: middle; */
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+}
+/*DR profile CSS start*/
+
+@media screen and (max-width: 600px)
+{
+	.all-headings
+	{
+		font-size: 35px;
 	}
 
-	.btn-outline-secondary {
-    width: 24%;
-    height: 25px;
-    color: #ffffff;
-    background-color: transparent;
-    border-color: #ffffff;
-    padding-top: 1px;
-    font-size: 13px;
+	.dr-name h3 {
+	    padding-top: 20px;
 	}
-
-	.caption p {
-    font-size: 9px;
-    padding-top: 0px;
-    margin-bottom: 6px;
-	}
-
-	.caption h5 {
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 3px;
-	}
-
-	.caption {
-    right: 75%;
-    bottom: 20px;
-    top: 5%;
-    left: 0;
-	}
-
-	.custom-img h3 {
-    position: absolute;
-    /* top: 5%; */
-    right: 7%;
-    color: #ffff;
-    font-size: 33px;
-    padding-top: 69px;
-    text-align: right;
-    font-weight: bold;
 }
 
-	.custom-img p {
-    position: absolute;
-    right: 20px;
-    /* top: 197px; */
-    color: #fff;
-    font-size: 18px;
-    text-align: right;
-    width: 100%;
-    padding: 0px 10px;    
-	}
-
-	.info h1 {
-    font-weight: bold;
-    padding-left: 20px;
-	}
-
-	.info p {
-    font-size: 20px;
-    margin-bottom: 0px;
-    padding-left: 24px;
-	}	
-
-	.infor p{
-	padding-left: 16px;
-    padding-right: 16px; 
-	}
-
-	.botton {
-    background: transparent;
-    border-color: #fff;
-    color: #fff;
-    width: 40%;
-    position: absolute;
-    top: 397px;
-    right: 52px;
-	}
-
-}
